@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Let's Roll</h1>
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="./images/dice1.png" />
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="./images/dice1.png" />
+      </div>
+      <!--Reload call onclick instead of clicking on refresh button again-->
+      <button
+        id="btn"
+        value="Reload Page"
+        onClick="window.location.reload(true)"
+      >
+        Click to Play
+      </button>
+    </div>
+  </body>
+  <br />
+  <br /><br />
+  <footer>Modified by Abhaya Shankar</footer>
+</html>
