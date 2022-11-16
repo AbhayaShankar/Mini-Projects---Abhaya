@@ -1,0 +1,21 @@
+#myform {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 30px;
+}
+
+.invalid {
+  border: 2px solid red;
+}
+
+#errorName {
+  color: red;
+}
+
+#errorMail {
+  color: red;
+}
+
+#errorPassword {
+  color: red;
+}
