@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website - 1</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="/"> Home </a></li>
+            <li><a href="/projects.html"> Projects</a></li>
+            <li><a href="/contact.html"> CV </a></li>
+            <li><a href="/blogs.html"> Blogs </a></li>
+            <li><a href="/about.html"> About Us </a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="contactform">
+          <h1>Contact Me :</h1>
+          <h3>You know I am open to any kind of Queries and mentorships.</h3>
+          <p>Feel free to reach out.</p>
+          <form>
+            <div class="mb-3">
+              <label for="clientemail" class="form-label"
+                >Email address :</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="clientemail"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                <em>
+                  We'll never share your email & phone no. with anyone else.</em
+                >
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="clientphone" class="form-label">Phone No :</label>
+              <input type="clientphone" class="form-control" id="clientphone" />
+            </div>
+            <div class="mb-3 form-check" id="checkbox-agree">
+              <input type="checkbox" class="form-check-input" id="isclient" />
+              <label class="form-check-label" for="isclient"
+                >Would you like to work with me?</label
+              >
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
