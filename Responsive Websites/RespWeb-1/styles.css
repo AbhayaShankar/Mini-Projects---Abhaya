@@ -61,6 +61,7 @@
   justify-content: center;
   align-items: center;
   gap: 12px;
+  margin-top: 100px;
 }
 
 .hello {
@@ -86,6 +87,22 @@
 }
 
 .aboutMe span {
+  font-weight: 600;
+}
+
+.skills {
+  font-size: 18px;
+  line-height: 24px;
+  position: relative;
+  left: -200px;
+  margin-bottom: 50px;
+}
+
+.welcome-about {
+  position: relative;
+  left: 300px;
+  top: 20px;
+  font-size: 24px;
   font-weight: 600;
 }
 
