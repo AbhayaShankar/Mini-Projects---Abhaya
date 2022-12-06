@@ -1,4 +1,4 @@
-.container {
+/* .container {
   display: grid;
   grid-template-columns: 5em 100px 20%;
   grid-template-rows: 200px auto;
@@ -6,4 +6,56 @@
   background-color: azure;
   padding: 1em;
   max-width: 30rem;
+} */
+
+/* .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 1fr;
+  gap: 10px;
+  background-color: azure;
+  padding: 1em;
+  max-width: 30rem;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+} */
+
+/* .container {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  gap: 20px;
+} */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 100px 1fr;
+
+  [linename]
+    A <custom-ident> 
+    specifying a name for the line in that location. 
+    The ident may be any valid string other than the reserved words span and auto. 
+    Lines may have multiple names separated by a space inside the square brackets, 
+    for example [line-name-a line-name-b].
+  grid-template-columns: [linename] 100px;
+  grid-template-columns: [linename1] 100px [linename2 linename3];
+  grid-template-columns: minmax(100px, 1fr);
+  grid-template-columns: fit-content(40%);
+  grid-template-columns: repeat(3, 200px);
+  grid-template-columns: subgrid;
+  grid-template-columns: masonry;
+  grid-template-columns: inherit;
+  grid-template-columns: initial;
+  grid-template-columns: revert;
+  grid-template-columns: revert-layer;
+  grid-template-columns: unset; 
+  */
+  gap: 20px;
+}
+
+.container > .box {
+  border: 2px solid black;
+  padding: 2rem;
 }

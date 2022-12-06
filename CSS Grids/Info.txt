@@ -25,8 +25,10 @@ Grid Terminologies : -
 
 7. Grid Items - A grid item is an item which is a direct child of the grid container.
 
-8. Rows and Columns - 
+8. Rows and Columns -
 
+9. The Fr unit - It is a special sizing method which only works in grid layout. This is the fr unit, a flexible length which describes a share of the available space in the grid container.
+                The fr unit works in a similar way to using flex: auto in flexbox. It distributes space after the items have been laid out. 
 
 
 
