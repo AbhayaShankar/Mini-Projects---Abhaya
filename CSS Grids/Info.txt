@@ -1,0 +1,39 @@
+CSS Grids - 
+CSS Grid Layout provides a two dimensional layout system, controlling layout in rows and columns.
+
+Grid Terminologies : -
+
+1. grid Lines - A grid is made up of lines, which run horizontally and vertically. If your grid has four columns, 
+    it will have five column lines including the one after the last column.
+
+2. Grid Grid Tracks - A track is the space between two grid lines. 
+    A row track is between two row lines and a column track between two 
+    column lines. When we create our grid we create these tracks by assigning a size to them.
+
+3. Grid Cell - A grid cell is the smallest space on a grid defined by the intersection of row and column tracks. 
+    It's just like a table cell or a cell in a spreadsheet.
+
+     If you define a grid and don't place any of the items they will automatically be laid out one item into each defined grid cell.
+
+4. Grid Area - Several grid cells together. Grid areas are created by causing an item to span over multiple tracks.
+
+5. Grid Gap - A gutter or alley between tracks. For sizing purposes these act like a regular track. 
+    You can't place content into a gap but you can span grid items across it.
+
+6. Grid Container - The HTML element which has display: grid applied, 
+    and therefore creates a new grid formatting context for the direct children.
+
+7. Grid Items - A grid item is an item which is a direct child of the grid container.
+
+8. Rows and Columns - 
+
+
+
+
+
+
+
+
+
+
+
