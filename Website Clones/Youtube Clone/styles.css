@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Noto+Serif&family=Righteous&family=Source+Serif+Pro:wght@400;600&family=VT323&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif", serif;
+  /* background-color: azure; */
+}
+
+a {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+img {
+  cursor: pointer;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+nav {
+  padding: 15px 2.5%;
+  justify-content: space-between;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  background: #fff;
+  position: static;
+  z-index: 10;
+  top: 0;
+}
+
+.nav-right img {
+  width: 32px;
+  margin-right: 25px;
+}
+
+/* .nav-right .umn {
+  transform: translateY(-15px);
+} */
+
+.nav-right .zayn {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 0;
+}
