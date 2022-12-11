@@ -185,7 +185,7 @@ nav {
 }
 
 .banner img {
-  height: 350px;
+  height: 320px;
   width: 100%;
   border-radius: 15px;
 }
@@ -212,4 +212,16 @@ nav {
   width: 45px;
   margin-right: 10px;
   border-radius: 50%;
+}
+
+.vid-info {
+  color: #5a5a5a;
+  font-size: 13px;
+}
+
+.vid-info a {
+  color: #000;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
