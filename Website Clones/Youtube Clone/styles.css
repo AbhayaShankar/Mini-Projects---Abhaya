@@ -84,6 +84,12 @@ nav {
 .mic-icon {
   margin-left: 50px;
   width: 20px;
+  opacity: 0.75;
+}
+
+.mic-icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 /* ------ Sidebar ------ */
@@ -108,7 +114,7 @@ nav {
   align-items: center;
   width: fit-content;
   flex-wrap: wrap;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .shortcut-links a:first-child {
@@ -124,4 +130,86 @@ nav {
   height: 1.5px;
   background: #ccc;
   width: 85%;
+}
+
+.subscribed-list h3 {
+  font-size: 15px;
+  margin: 20px 0;
+  color: #5a5a5a;
+}
+
+.subscribed-list a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+
+.subscribed-list img {
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.hide-sidebar {
+  width: 6%;
+  /* padding-left: 1%; */
+}
+
+.hide-sidebar a p {
+  display: none;
+}
+
+.hide-sidebar h3 {
+  display: none;
+}
+
+.hide-sidebar hr {
+  width: 50%;
+  margin-bottom: 25px;
+}
+
+/* -------main----- */
+
+.container {
+  background: #f9f9f9;
+  padding-left: 20%;
+  padding-right: 2%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner img {
+  height: 350px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  grid-column-gap: 16px;
+  grid-row-gap: 30px;
+  margin-top: 15px;
+}
+
+.video-list .thumbnail {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.video-list .flex-div {
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.video-list .flex-div img {
+  width: 45px;
+  margin-right: 10px;
+  border-radius: 50%;
 }
