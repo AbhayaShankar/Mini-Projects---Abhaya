@@ -47,3 +47,41 @@ nav {
   border-radius: 50%;
   margin-right: 0;
 }
+
+.nav-left .menu-icon {
+  width: 25px;
+  margin-right: 25px;
+}
+
+.nav-left .logo {
+  width: 130px;
+}
+
+.nav-middle .search-box {
+  padding: 5px 60px;
+  border: 1px solid gray;
+  border-radius: 30px;
+}
+
+.nav-middle .search-box img {
+  transform: translateX(-0px);
+}
+
+.nav-middle .search-box .search {
+  padding: 5px 6.5%;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  margin-right: 5px;
+  transform: translateX(-18%);
+  outline: none;
+}
+
+/* .nav-middle .search-box .search {
+  outline: none;
+} */
+
+.mic-icon {
+  margin-left: 50px;
+  width: 20px;
+}
