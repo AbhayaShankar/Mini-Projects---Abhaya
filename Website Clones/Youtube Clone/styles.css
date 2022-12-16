@@ -208,7 +208,8 @@ nav {
 }
 
 .video-list .thumbnail {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   border-radius: 8px;
 }
 
@@ -250,12 +251,51 @@ nav {
     padding-right: 5%;
   }
 
-  .nav-right {
+  .nav-right .umn {
     display: none;
   }
 
   .nav-right .zayn {
-    display: block;
-    width: 30px;
+    width: 35px;
+    transform: translateX(-10px);
+  }
+
+  .nav-middle .search-box input {
+    width: 100px;
+  }
+
+  .nav-middle .search-box img {
+    transform: translateX(40px);
+  }
+
+  .nav-middle .mic-icon {
+    transform: translateX(-30px);
+  }
+
+  nav {
+    width: max-content;
+  }
+
+  .container .banner img {
+    max-height: 150px;
+    min-width: 562px;
+    max-width: max-content;
+  }
+
+  .container .list-container {
+    grid-template-columns: repeat(auto-fit, minmax(562px, 1fr));
+  }
+
+  .logo {
+    width: 90px;
+  }
+
+  .vid-info a,
+  p {
+    font-size: 16px;
+  }
+
+  .video-list .flex-div img {
+    width: 50px;
   }
 }
