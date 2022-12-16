@@ -273,17 +273,24 @@ nav {
   }
 
   nav {
-    width: max-content;
+    min-width: min-content;
+    max-width: 900px;
   }
 
   .container .banner img {
     max-height: 150px;
     min-width: 562px;
-    max-width: max-content;
+    max-width: 975px;
+  }
+
+  .video-list .thumbnail {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
   }
 
   .container .list-container {
-    grid-template-columns: repeat(auto-fit, minmax(562px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
   }
 
   .logo {
@@ -297,5 +304,11 @@ nav {
 
   .video-list .flex-div img {
     width: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container .list-container {
+    grid-template-columns: repeat(auto-fit, minmax(562px, 2fr));
   }
 }
