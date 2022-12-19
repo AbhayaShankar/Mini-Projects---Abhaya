@@ -523,3 +523,25 @@ nav {
   font-size: 13px;
   color: #424242;
 }
+
+.old-comment .a-comment {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  font-size: 13px;
+}
+
+.old-comment .a-comment img {
+  border-radius: 0;
+  width: 20px;
+  margin-right: 8px;
+}
+
+.old-comment .a-comment span {
+  margin-right: 20px;
+  color: #424242;
+}
+
+.old-comment .a-comment a {
+  color: rgb(25, 66, 200);
+}
