@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 20px;
+  box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+#year {
+  width: 120px;
+  height: 50px;
+}
+
+#year2 {
+  padding-left: 20px;
+  width: 120px;
+  height: 50px;
+}
+
+#surprise {
+  margin: 50px auto;
+  display: flex;
+  align-item: center;
+
+  width: 34%;
+}
+
+#HNY {
+  display: flex;
+  align-items: center;
+  margin: 100px auto;
+  width: 50%;
+  padding-bottom: 100px;
+}
+
+.surprise-new {
+  background: black;
+}
+
+img {
+  transition: 0.01s;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+img:active {
+  transform: scale(0.5);
+}
+
+.surprise-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  /* background: black; */
+}
+
+#btn {
+  padding: 15px 25px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 25px;
+  border: 2px solid black;
+  background-color: rgb(245, 190, 50);
+}
+
+#btn:hover {
+  background-color: transparent;
+  border: 2px solid goldenrod;
+  cursor: pointer;
+  transform: scale(1.05);
+}
